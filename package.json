@@ -1,0 +1,34 @@
+{
+  "name": "postcss-color-lighten",
+  "version": "0.0.1",
+  "description": "PostCSS plugin to lighten a color by a specified amount",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "lighten",
+    "percentage",
+    "SASS"
+  ],
+  "author": "alexlibby <alex.libby@outlook.com>",
+  "license": "MIT",
+  "repository": "alexlibby/postcss-color-lighten",
+  "bugs": {
+    "url": "https://github.com/alexlibby/postcss-color-lighten/issues"
+  },
+  "homepage": "https://github.com/alexlibby/postcss-color-lighten",
+  "dependencies": {
+    "postcss": "^5.0.21"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "eslint": "^2.10.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
